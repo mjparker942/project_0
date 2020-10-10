@@ -6,6 +6,8 @@ img{
 
 #rcorners{
   border-radius: 25px;
+  width: 300px;
+  height: 20px;
 }
 
 .center{
