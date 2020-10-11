@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Google Image Search</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   </head>
   <body>
-    <p>Google Image Search</p>
+    <div class="btn-group" id="topright">
+      <button onclick="document.location='image_search.html'"type="button" class="btn btn-primary">Image Search</button>
+      <button onclick="document.location='advanced_search.html'"type="button" class="btn btn-primary">Advanced Search</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src="google-logo-transparent.png" alt="google logo">
+    <form class="center" action="https://www.google.com/images">
+      <input id="rcorners" type="text" name="q">
+        <input type="submit" value="Google Image Search">
+    </form>
   </body>
 </html>
